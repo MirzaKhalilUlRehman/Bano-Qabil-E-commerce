@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ScrollProducts from "./components/ScrollProducts";
 import FeatureSection from "./components/FeatureSection";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
           ButtonContent="Learn More"
         />
       </div>
+      <Footer/>
     </div>
   );
 };
